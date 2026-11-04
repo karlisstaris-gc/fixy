@@ -1,3 +1,7 @@
+## Unreleased
+
+* Use mutable strings for built output so Ruby 3.4+ no longer warns about frozen string literals, and nothing raises FrozenError once literals are frozen.
+
 ## v0.0.9
 
 * Fix Proc.new deprecation for block capture.

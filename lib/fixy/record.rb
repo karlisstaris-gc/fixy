@@ -87,7 +87,7 @@ module Fixy
 
         decorator = debug ? Fixy::Decorator::Debug : Fixy::Decorator::Default
         fields = []
-        output = ''
+        output = +''
         current_position = 1
         current_record = 1
 
@@ -121,7 +121,7 @@ module Fixy
     # Generate the entry based on the record structure
     def generate(debug = false)
       decorator = debug ? Fixy::Decorator::Debug : Fixy::Decorator::Default
-      output = ''
+      output = +''
       current_position = 1
       current_record = 1
 

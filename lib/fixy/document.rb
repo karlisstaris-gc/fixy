@@ -11,7 +11,7 @@ module Fixy
 
     def generate(debug = false)
       @debug_mode = debug
-      @content = ''
+      @content = +''
 
       # Generate document based on user logic.
       build
